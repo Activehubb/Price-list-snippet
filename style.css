@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7;
+	background: #444;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	background-color: #333;
+	padding: 1rem;
+}
+
+.text {
+	padding-bottom: 1.5rem;
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.list-table {
+	text-align: center;
+	margin-bottom: 4rem;
+	box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.9);
+}
+
+.text-primary {
+	padding: 1rem 2rem;
+	border-top-left-radius: 0.2rem;
+	border-top-right-radius: 0.2rem;
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.text-secondary {
+	background: #f0f0f0;
+	padding: 0.8rem;
+	color: rgb(104, 103, 103);
+	border: 1px dotted #b1aeae97;
+	font-size: 0.8rem;
+}
+
+.btn {
+	display: block;
+	padding: 1rem 2rem;
+	background-color: #19d619;
+	font-size: 1rem;
+	font-weight: 400;
+	border-bottom-left-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+	cursor: pointer;
+	color: #fff;
+}
+
+span {
+	color: #070000;
+	font-weight: 500;
+}
+
+.simple {
+	background: #070000;
+}
+
+.standard {
+	background: #1066df;
+}
+
+.super {
+	background: #e53462;
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 80%;
+		margin: 1rem auto;
+		padding: 1rem;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.container {
+		width: 95%;
+		margin: 1rem auto;
+	}
+
+	.list-table {
+		width: 30%;
+		display: inline-block;
+		margin-left: 1rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.container {
+		width: 98%;
+		margin: 1.5rem auto;
+		border-radius: 0.5rem;
+	}
+
+	.list-table {
+		width: 32%;
+		display: inline-block;
+		margin-left: 0.5rem;
+	}
+}
